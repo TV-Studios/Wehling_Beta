@@ -22,7 +22,7 @@ jQuery.fn.heroCarousel = function(options){
 		easing: '',
 		timeout: 3200,
 		pause: true,
-		pauseOnNavHover: true,
+		pauseOnNavHover: false,
 		prevText: '<i class="icon-chevron-left"></i>',
 		nextText: '<i class="icon-chevron-right"></i>',
 		css3pieFix: false,
@@ -75,14 +75,14 @@ jQuery.fn.heroCarousel = function(options){
 				var paused = false;
 				if(options.pause){
 					carousel.hover(function(){
-						paused = true;
+						paused = false;
 					},function(){
 						paused = false;
 					});
 				}
 				if(options.pauseOnNavHover){
 					carouselNav.hover(function(){
-						paused = true;
+						paused = false;
 					},function(){
 						paused = false;
 					});
