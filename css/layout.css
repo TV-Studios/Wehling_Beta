@@ -303,19 +303,16 @@
 	
 	#social-data {
 		text-align: center;
-		width: 80%;
 		background: #f8f9f9;
-		margin: 23px 0 20px 0;
+		margin: 23px 0 -95px 0;
 		min-height: 300px;
 	}
 	
-	#social-data .row {
-		background: url(../img/bubble.png) top right no-repeat;
-	}
 	
 	#social-data .span4 {
 		margin-top: 56px;
 		margin-bottom: 33px;
+		text-align: center;
 	}
 	
 	#social-data h5 {
