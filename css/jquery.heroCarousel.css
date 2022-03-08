@@ -104,4 +104,3 @@
 	.hero-carousel-nav li.prev { right: 55px; display:none;}	
 }
 
-@media (max-width: 479px) { .hero-carousel { display: none; } }
